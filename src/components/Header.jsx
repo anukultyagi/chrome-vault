@@ -7,7 +7,7 @@ const Header = () => {
                 <p className='text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium'>
                     Transform Your Productivity with Chrome Vault.
                 </p>
-                <p className='text-sm sm:text-md md:text-lg mb-8 w-full sm:w-3/4 lg:w-2/3'>
+                <p className='text-sm sm:text-md md:text-lg mb-8 w-full sm:w-3/4 lg:w-4/5 text-zinc-700'>
                     Browse through a curated selection of Chrome extensions handpicked for productivity, creativity, and convenience. Get ready to supercharge your browsing experience!
                 </p>
                 <button className='w-fit mb-2 bg-black font-light text-xs sm:text-sm md:text-base text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full tracking-widest hover:bg-gray-800 transition-colors'>
