@@ -6,14 +6,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Chrome Vault",
-  description: "A next app to showcase different chrome extensions.",
+  description: "A Next.js app to showcase different Chrome extensions.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-background">
+        <div className="bg-background min-h-screen">
           <Navbar />
           {children}
         </div>
