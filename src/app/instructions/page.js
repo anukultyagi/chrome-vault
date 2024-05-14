@@ -40,7 +40,7 @@ const page = () => {
                         <p className="text-gray-700 mb-6">
                             Open Chrome and navigate to <code className="bg-gray-100 px-1 rounded">chrome://extensions</code>. Enable Developer Mode using the toggle switch in the top right corner.
                         </p>
-                        <img src="/images/enable-developer-mode.png" alt="Enable Developer Mode" className="w-full mt-6 rounded shadow" />
+                        {/* <img src="/images/enable-developer-mode.png" alt="Enable Developer Mode" className="w-full mt-6 rounded shadow" /> */}
                     </section>
 
                     <section>
@@ -48,7 +48,7 @@ const page = () => {
                         <p className="text-gray-700 mb-6">
                             Click on "Load unpacked" and select the extracted folder from step 2.
                         </p>
-                        <img src="/images/load-unpacked.png" alt="Load Unpacked Extension" className="w-full mt-6 rounded shadow" />
+                        {/* <img src="/images/load-unpacked.png" alt="Load Unpacked Extension" className="w-full mt-6 rounded shadow" /> */}
                     </section>
 
                     <section>
