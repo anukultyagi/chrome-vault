@@ -27,6 +27,7 @@ Time to unleash the magic inside that ZIP:
 ### Step 3: Enable Developer Mode in Chrome
 
 Open Chrome and navigate to `chrome://extensions`. Flip the Developer Mode switch in the top right corner. You're basically a developer now.
+
 ![Enable Developer Mode](/public/images/enable-developer-mode.png)
 _Enable Developer Mode in Chrome_
 
@@ -37,11 +38,6 @@ Click "Load unpacked" and select the folder you just extracted. Boom, you're hal
 ### Step 5: Testing the Extension
 
 Check your extensions list in Chrome. See it? Congrats, you did it! Now go forth and browse like a boss.
-
-## Screenshots
-
-![Load Unpacked Extension](./screenshots/load-unpacked.png)
-_Load the unpacked extension_
 
 ## Contribution Guidelines
 
