@@ -13,7 +13,7 @@ const Cards = () => {
                             title={item.title}
                             desc={item.desc}
                             imgSrc={item.imgSrc}
-                            downloadLink={item.downloadLink}
+
                         />)}
                 </div>
             </div>

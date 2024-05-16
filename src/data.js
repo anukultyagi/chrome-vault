@@ -9,27 +9,27 @@ export const cardData = [
         imgSrc: dadjoke,
         title: 'Dad Joke Extension 😂',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
-        downloadLink: ''
+
     },
     {
         id: 2,
         imgSrc: loremIpsum,
         title: 'Lorem Picsum Extension 🖼',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
-        downloadLink: ''
+
     },
     {
         id: 3,
         imgSrc: lorempicsum,
         title: 'Pesticide (CSS Debugger) ',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
-        downloadLink: ''
+
     },
     {
         id: 4,
         imgSrc: pesticide,
         title: 'Lorem Ipsum Extension ',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
-        downloadLink: ''
+
     }
 ]

@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useState } from "react";
@@ -24,14 +24,14 @@ const Navbar = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}></path>
                     </svg>
                 </button>
-                <ul className={`md:flex gap-2 md:gap-5 ${isOpen ? "flex flex-col md:flex-row mt-4 md:mt-0" : "hidden"}`}>
+                <ul className={`md:flex gap-2 md:gap-5 ${isOpen ? "flex flex-col md:flex-row mt-4 md:mt-0" : "hidden"}`} style={{ maxWidth: "calc(100% - 2rem)" }}>
                     <li className="text-zinc-900 hover:text-primary">
                         <Link href="/instructions" className={`flex items-center ${pathname === "/instructions" ? "text-white hover:text-zinc-950" : ""}`}>
                             Instructions
                         </Link>
                     </li>
                     <li className="text-zinc-900 hover:text-primary">
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center">GitHub</a>
+                        <Link href="https://github.com/anukultyagi" target="_blank" rel="noopener noreferrer" className="flex items-center">GitHub</Link>
                     </li>
                 </ul>
             </div>

@@ -1,7 +1,8 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const Card = (props) => {
-    const { title, desc, imgSrc, downloadLink } = props
+    const { title, desc, imgSrc } = props
 
 
     return (
@@ -14,18 +15,19 @@ const Card = (props) => {
                 </p>
             </div>
             <div className="px-6 pt-4 pb-2">
-                <a
-                    href="https://github.com/anukultyagi"
+                <Link
+                    target="_blank"
+                    href="https://github.com/anukultyagi/Chrome-Extensions-Showcase"
                     className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
                 >
                     Github
-                </a>
-                <a
-                    href={downloadLink}
+                </Link>
+                <Link
+                    href='/instructions'
                     className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
                 >
-                    Download
-                </a>
+                    Instructions
+                </Link>
 
 
             </div>
