@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className='container max-w-6xl mx-auto py-16 px-4 sm:px-6 lg:px-8'>
             <div className='flex flex-col gap-5 m-4 sm:m-8 lg:m-16 items-center text-center'>
-                <p className='text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium'>
+                <p className='text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-medium tracking-tight'>
                     Transform Your Productivity with Chrome Vault.
                 </p>
                 <p className='text-sm sm:text-md md:text-lg mb-8 w-full sm:w-3/4 lg:w-4/5 text-zinc-700'>
