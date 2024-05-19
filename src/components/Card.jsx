@@ -1,3 +1,4 @@
+import { ErrorBoundary } from "next/dist/client/components/error-boundary"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -13,6 +14,7 @@ const Card = (props) => {
                 <p className="text-gray-700 text-base">
                     {desc}
                 </p>
+
             </div>
             <div className="px-6 pt-4 pb-2">
                 <Link
