@@ -13,21 +13,21 @@ export const cardData = [
     },
     {
         id: 2,
-        imgSrc: loremIpsum,
+        imgSrc: lorempicsum,
         title: 'Lorem Picsum Extension 🖼',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
 
     },
     {
         id: 3,
-        imgSrc: lorempicsum,
+        imgSrc: pesticide,
         title: 'Pesticide (CSS Debugger) ',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
 
     },
     {
         id: 4,
-        imgSrc: pesticide,
+        imgSrc: loremIpsum,
         title: 'Lorem Ipsum Extension ',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.',
 
