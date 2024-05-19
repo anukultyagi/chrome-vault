@@ -8,7 +8,7 @@ const Card = (props) => {
 
     return (
         <div className="max-w-sm mx-auto rounded overflow-hidden shadow-2xl  ">
-            <Image className="w-full h-44 object-contain p-10 rounded-xl" priority={true} src={imgSrc} alt="extension" />
+            <Image className="w-full h-44 object-contain p-10 rounded-xl" loading="lazy" priority={true} src={imgSrc} alt="extension" />
             <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{title}</div>
                 <p className="text-gray-700 text-base">
