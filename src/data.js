@@ -13,7 +13,7 @@ export const cardData = [
         id: 2,
         imgSrc: lorempicsum,
         title: 'Lorem Picsum Extension 🖼',
-        desc: 'Browse high-quality images from Lorem Picsum directly in your browser. Perfect for designers and developers looking for inspiration and beautiful visuals from professional photographers!',
+        desc: 'Browse high-quality images from Lorem Picsum directly in your browser. Perfect for designers and developers looking for inspiration and beautiful visuals!',
     },
     {
         id: 3,
