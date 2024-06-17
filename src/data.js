@@ -1,6 +1,6 @@
 import images from './../public/images';
 
-const { dadjoke, loremIpsum, lorempicsum, pesticide } = images;
+const { dadjoke, loremIpsum, lorempicsum, pesticide, colorPicker } = images;
 
 export const cardData = [
     {
@@ -26,5 +26,11 @@ export const cardData = [
         imgSrc: loremIpsum,
         title: 'Lorem Ipsum Extension',
         desc: 'Generate Lorem Ipsum text directly in your editor. Perfect for testing layouts, fonts, and content placeholders easily and conveniently!',
+    },
+    {
+        id: 5,
+        imgSrc: colorPicker,
+        title: 'Color Picker',
+        desc: 'Easily select and save any color from your screen using our Color Picker extension. Perfect for designers and developers needing quick color references.',
     }
 ];
