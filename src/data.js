@@ -1,6 +1,6 @@
 import images from './../public/images';
 
-const { dadjoke, loremIpsum, lorempicsum, pesticide, colorPicker } = images;
+const { dadjoke, loremIpsum, lorempicsum, pesticide, colorPicker, adBlocker } = images;
 
 export const cardData = [
     {
@@ -32,5 +32,11 @@ export const cardData = [
         imgSrc: colorPicker,
         title: 'Color Picker',
         desc: 'Easily select and save any color from your screen using our Color Picker extension. Perfect for designers and developers needing quick color references.',
+    },
+    {
+        id: 6,
+        imgSrc: adBlocker,
+        title: 'Ad Blocker',
+        desc: 'Block ads seamlessly with Ad Blocker! Enjoy an ad-free browsing experience without any distracting UI. Just install and browse freely.',
     }
 ];

@@ -8,6 +8,7 @@ import lorempicsum from './lorem-picsum-icon.png'
 import pesticide from './pesticide-icon.png'
 import enableDeveloperMode from './enable-developer-mode.png'
 import colorPicker from './color-picker-128.png'
+import adBlocker from './ad-blocker.png'
 
 
-export default { dadjoke, loremIpsum, lorempicsum, pesticide, enableDeveloperMode, colorPicker }
+export default { dadjoke, loremIpsum, lorempicsum, pesticide, enableDeveloperMode, colorPicker, adBlocker }
